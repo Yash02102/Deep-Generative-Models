@@ -1,0 +1,30 @@
+# Ignore generated binary artifacts
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
+# Ignore other generic binary files
+*.bin
+*.npz
+*.npy
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pb
+*.pkl
+*.pickle
+*.joblib
+*.gz
+*.zip
+*.tar
+*.tgz
+*.7z
+*.rar
+*.xz
+*.lz4
