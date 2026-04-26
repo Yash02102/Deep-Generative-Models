@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dgm-lab"
+version = "0.1.0"
+description = "Small, inspectable experiments for learning deep generative models"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Yash Rathod"}]
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
