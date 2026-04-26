@@ -34,6 +34,4 @@ The examples intentionally use NumPy-first implementations so the behavior is ea
 3. Open `src/dgm_lab/flows.py` to trace how the affine coupling transform stays invertible.
 4. Extend the toy data distribution or add a plotting script under `experiments/`.
 
-## Public-Repo Notes
 
-This repo is framed as a learning and experimentation notebook in code form. It avoids course-specific submission artifacts and heavyweight generated outputs.
